@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MP_E.master.cs" Inherits="MP_E" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            background-color: #009933;
+        }
+        .auto-style3 {
+            text-align: right;
+        }
+        .auto-style4 {
+            width: 676px;
+        }
+        .auto-style5 {
+            width: 291px;
+        }
+        .auto-style6 {
+            text-align: center;
+            background-color: #009933;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style3">
+                    <asp:Button ID="btnDeslogueo" runat="server" Text="LogOut" OnClick="btnDeslogueo_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style6" colspan="3">
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="True" Font-Names="Times New Roman" Font-Size="72pt" ForeColor="White" Text="Bios Tiempo"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2" colspan="3">
+                    <asp:Menu ID="Menu1" runat="server" BorderColor="Black" Font-Bold="True" Font-Italic="True" Font-Names="Times New Roman" Font-Size="15pt" ForeColor="White" Orientation="Horizontal" StaticSubMenuIndent="32px">
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/ABMEmpleado.aspx" Text="ABM Empleado" Value="ABM Empleado"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/ABMMeteorologo.aspx" Text="ABM Meteorologo" Value="ABM Meteorologo"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/ABMCiudades.aspx" Text="ABM Ciudades" Value="ABM Ciudades"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/ListadoPronosticoTiempo.aspx" Text="Listado Pronosticos" Value="Listado Pronosticos"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/ListadosSinAsignacion.aspx" Text="Listados Sin Asignacion" Value="Listados Sin Asignacion"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

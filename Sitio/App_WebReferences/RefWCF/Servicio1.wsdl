@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Servicio" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://nacho/MiServicioWCF/Servicio.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://nacho/MiServicioWCF/Servicio.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://nacho/MiServicioWCF/Servicio.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicio_AgregarCiudad_InputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarCiudad" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_AgregarCiudad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarCiudadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_EliminarCiudad_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarCiudad" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_EliminarCiudad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarCiudadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ModificarCiudad_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarCiudad" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ModificarCiudad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarCiudadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_BuscarCiudad_InputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarCiudad" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_BuscarCiudad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarCiudadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ListarCiudadSinPronxAno_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarCiudadSinPronxAno" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ListarCiudadSinPronxAno_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarCiudadSinPronxAnoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ListarCiudades_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarCiudades" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ListarCiudades_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarCiudadesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ListarTodasLasCiudades_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarTodasLasCiudades" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ListarTodasLasCiudades_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarTodasLasCiudadesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_Logueo_InputMessage">
+    <wsdl:part name="parameters" element="tns:Logueo" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_Logueo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogueoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_AgregarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_AgregarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ModificarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ModificarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ModificarPassMeteorologo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarPassMeteorologo" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ModificarPassMeteorologo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarPassMeteorologoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_EliminarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_EliminarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_BuscarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_BuscarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ListarMeteorologoSinPronxAno_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarMeteorologoSinPronxAno" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ListarMeteorologoSinPronxAno_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarMeteorologoSinPronxAnoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_AgregarPronostico_InputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarPronostico" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_AgregarPronostico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarPronosticoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ListarPronosticoAnio_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarPronosticoAnio" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ListarPronosticoAnio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarPronosticoAnioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ListarPronosticodeHoy_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarPronosticodeHoy" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_ListarPronosticodeHoy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarPronosticodeHoyResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicio">
+    <wsdl:operation name="AgregarCiudad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/AgregarCiudad" message="tns:IServicio_AgregarCiudad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/AgregarCiudadResponse" message="tns:IServicio_AgregarCiudad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarCiudad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/EliminarCiudad" message="tns:IServicio_EliminarCiudad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/EliminarCiudadResponse" message="tns:IServicio_EliminarCiudad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarCiudad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/ModificarCiudad" message="tns:IServicio_ModificarCiudad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/ModificarCiudadResponse" message="tns:IServicio_ModificarCiudad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarCiudad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/BuscarCiudad" message="tns:IServicio_BuscarCiudad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/BuscarCiudadResponse" message="tns:IServicio_BuscarCiudad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarCiudadSinPronxAno">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/ListarCiudadSinPronxAno" message="tns:IServicio_ListarCiudadSinPronxAno_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/ListarCiudadSinPronxAnoResponse" message="tns:IServicio_ListarCiudadSinPronxAno_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarCiudades">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/ListarCiudades" message="tns:IServicio_ListarCiudades_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/ListarCiudadesResponse" message="tns:IServicio_ListarCiudades_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodasLasCiudades">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/ListarTodasLasCiudades" message="tns:IServicio_ListarTodasLasCiudades_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/ListarTodasLasCiudadesResponse" message="tns:IServicio_ListarTodasLasCiudades_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Logueo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/Logueo" message="tns:IServicio_Logueo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/LogueoResponse" message="tns:IServicio_Logueo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AgregarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/AgregarUsuario" message="tns:IServicio_AgregarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/AgregarUsuarioResponse" message="tns:IServicio_AgregarUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/ModificarUsuario" message="tns:IServicio_ModificarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/ModificarUsuarioResponse" message="tns:IServicio_ModificarUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarPassMeteorologo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/ModificarPassMeteorologo" message="tns:IServicio_ModificarPassMeteorologo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/ModificarPassMeteorologoResponse" message="tns:IServicio_ModificarPassMeteorologo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/EliminarUsuario" message="tns:IServicio_EliminarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/EliminarUsuarioResponse" message="tns:IServicio_EliminarUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/BuscarUsuario" message="tns:IServicio_BuscarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/BuscarUsuarioResponse" message="tns:IServicio_BuscarUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarMeteorologoSinPronxAno">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/ListarMeteorologoSinPronxAno" message="tns:IServicio_ListarMeteorologoSinPronxAno_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/ListarMeteorologoSinPronxAnoResponse" message="tns:IServicio_ListarMeteorologoSinPronxAno_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AgregarPronostico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/AgregarPronostico" message="tns:IServicio_AgregarPronostico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/AgregarPronosticoResponse" message="tns:IServicio_AgregarPronostico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarPronosticoAnio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/ListarPronosticoAnio" message="tns:IServicio_ListarPronosticoAnio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/ListarPronosticoAnioResponse" message="tns:IServicio_ListarPronosticoAnio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarPronosticodeHoy">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/ListarPronosticodeHoy" message="tns:IServicio_ListarPronosticodeHoy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/ListarPronosticodeHoyResponse" message="tns:IServicio_ListarPronosticodeHoy_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicio" type="tns:IServicio">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AgregarCiudad">
+      <soap:operation soapAction="http://tempuri.org/IServicio/AgregarCiudad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarCiudad">
+      <soap:operation soapAction="http://tempuri.org/IServicio/EliminarCiudad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarCiudad">
+      <soap:operation soapAction="http://tempuri.org/IServicio/ModificarCiudad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarCiudad">
+      <soap:operation soapAction="http://tempuri.org/IServicio/BuscarCiudad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarCiudadSinPronxAno">
+      <soap:operation soapAction="http://tempuri.org/IServicio/ListarCiudadSinPronxAno" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarCiudades">
+      <soap:operation soapAction="http://tempuri.org/IServicio/ListarCiudades" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodasLasCiudades">
+      <soap:operation soapAction="http://tempuri.org/IServicio/ListarTodasLasCiudades" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logueo">
+      <soap:operation soapAction="http://tempuri.org/IServicio/Logueo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicio/AgregarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicio/ModificarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarPassMeteorologo">
+      <soap:operation soapAction="http://tempuri.org/IServicio/ModificarPassMeteorologo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicio/EliminarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicio/BuscarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarMeteorologoSinPronxAno">
+      <soap:operation soapAction="http://tempuri.org/IServicio/ListarMeteorologoSinPronxAno" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarPronostico">
+      <soap:operation soapAction="http://tempuri.org/IServicio/AgregarPronostico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarPronosticoAnio">
+      <soap:operation soapAction="http://tempuri.org/IServicio/ListarPronosticoAnio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarPronosticodeHoy">
+      <soap:operation soapAction="http://tempuri.org/IServicio/ListarPronosticodeHoy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Servicio">
+    <wsdl:port name="BasicHttpBinding_IServicio" binding="tns:BasicHttpBinding_IServicio">
+      <soap:address location="http://nacho/MiServicioWCF/Servicio.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

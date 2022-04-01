@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e51caa55-68c7-419d-bfc5-ebadaa600d12" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/MiServicioWCF/servicio.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Servicio3.xsd" MetadataType="Schema" ID="074e8245-7882-4e64-a191-b1e03ca52da7" SourceId="1" SourceUrl="http://nacho/MiServicioWCF/Servicio.svc?xsd=xsd2" />
+    <MetadataFile FileName="Servicio32.xsd" MetadataType="Schema" ID="ff302a8e-483e-46f2-9108-a7b350a57d39" SourceId="1" SourceUrl="http://nacho/MiServicioWCF/Servicio.svc?xsd=xsd0" />
+    <MetadataFile FileName="Servicio1.wsdl" MetadataType="Wsdl" ID="68f896e4-b3fc-4bc8-8dce-7b5b9b86ad6a" SourceId="1" SourceUrl="http://nacho/MiServicioWCF/Servicio.svc?wsdl" />
+    <MetadataFile FileName="Servicio33.xsd" MetadataType="Schema" ID="813a5b99-1607-4883-beb1-8440488db3a6" SourceId="1" SourceUrl="http://nacho/MiServicioWCF/Servicio.svc?xsd=xsd1" />
+    <MetadataFile FileName="Servicio1.disco" MetadataType="Disco" ID="345dfc8c-6e63-48f8-93de-af384b2dbffd" SourceId="1" SourceUrl="http://nacho/MiServicioWCF/Servicio.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

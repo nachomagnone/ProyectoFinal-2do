@@ -1,0 +1,96 @@
+C:\Users\Administrador\Desktop\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll.config
+C:\Users\Administrador\Desktop\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll
+C:\Users\Administrador\Desktop\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.pdb
+C:\Users\Administrador\Desktop\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\Proyecto2022\OtroServicioWCF\bin\Logica.dll
+C:\Users\Administrador\Desktop\Proyecto2022\OtroServicioWCF\bin\Persistencia.dll
+C:\Users\Administrador\Desktop\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.pdb
+C:\Users\Administrador\Desktop\Proyecto2022\OtroServicioWCF\bin\Logica.pdb
+C:\Users\Administrador\Desktop\Proyecto2022\OtroServicioWCF\bin\Persistencia.pdb
+C:\Users\Administrador\Desktop\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.dll
+C:\Users\Administrador\Desktop\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.pdb
+C:\Users\tickantel\Desktop\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll.config
+C:\Users\tickantel\Desktop\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll
+C:\Users\tickantel\Desktop\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.pdb
+C:\Users\tickantel\Desktop\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.dll
+C:\Users\tickantel\Desktop\Proyecto2022\OtroServicioWCF\bin\Logica.dll
+C:\Users\tickantel\Desktop\Proyecto2022\OtroServicioWCF\bin\Persistencia.dll
+C:\Users\tickantel\Desktop\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.pdb
+C:\Users\tickantel\Desktop\Proyecto2022\OtroServicioWCF\bin\Logica.pdb
+C:\Users\tickantel\Desktop\Proyecto2022\OtroServicioWCF\bin\Persistencia.pdb
+C:\Users\tickantel\Desktop\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.csprojResolveAssemblyReference.cache
+C:\Users\tickantel\Desktop\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.dll
+C:\Users\tickantel\Desktop\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.pdb
+C:\Users\Nicolas\Desktop\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll.config
+C:\Users\Nicolas\Desktop\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll
+C:\Users\Nicolas\Desktop\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.pdb
+C:\Users\Nicolas\Desktop\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.dll
+C:\Users\Nicolas\Desktop\Proyecto2022\OtroServicioWCF\bin\Logica.dll
+C:\Users\Nicolas\Desktop\Proyecto2022\OtroServicioWCF\bin\Persistencia.dll
+C:\Users\Nicolas\Desktop\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.pdb
+C:\Users\Nicolas\Desktop\Proyecto2022\OtroServicioWCF\bin\Logica.pdb
+C:\Users\Nicolas\Desktop\Proyecto2022\OtroServicioWCF\bin\Persistencia.pdb
+C:\Users\Nicolas\Desktop\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Desktop\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.dll
+C:\Users\Nicolas\Desktop\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.pdb
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll.config
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.pdb
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.dll
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\OtroServicioWCF\bin\Logica.dll
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\OtroServicioWCF\bin\Persistencia.dll
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.pdb
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\OtroServicioWCF\bin\Logica.pdb
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\OtroServicioWCF\bin\Persistencia.pdb
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.dll
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll.config
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\OtroServicioWCF\bin\Logica.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\OtroServicioWCF\bin\Persistencia.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\OtroServicioWCF\bin\Logica.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\OtroServicioWCF\bin\Persistencia.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.pdb
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll.config
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.pdb
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.dll
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\OtroServicioWCF\bin\Logica.dll
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\OtroServicioWCF\bin\Persistencia.dll
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.pdb
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\OtroServicioWCF\bin\Logica.pdb
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\OtroServicioWCF\bin\Persistencia.pdb
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.dll
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.pdb
+C:\Users\Administrador\Downloads\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll.config
+C:\Users\Administrador\Downloads\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll
+C:\Users\Administrador\Downloads\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.pdb
+C:\Users\Administrador\Downloads\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.dll
+C:\Users\Administrador\Downloads\Proyecto2022\OtroServicioWCF\bin\Logica.dll
+C:\Users\Administrador\Downloads\Proyecto2022\OtroServicioWCF\bin\Persistencia.dll
+C:\Users\Administrador\Downloads\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.pdb
+C:\Users\Administrador\Downloads\Proyecto2022\OtroServicioWCF\bin\Logica.pdb
+C:\Users\Administrador\Downloads\Proyecto2022\OtroServicioWCF\bin\Persistencia.pdb
+C:\Users\Administrador\Downloads\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Downloads\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.dll
+C:\Users\Administrador\Downloads\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.pdb
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll.config
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.dll
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\OtroServicioWCF\bin\OtroServicioWCF.pdb
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\OtroServicioWCF\bin\Logica.dll
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\OtroServicioWCF\bin\Persistencia.dll
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\OtroServicioWCF\bin\EntidadesCompartidas.pdb
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\OtroServicioWCF\bin\Logica.pdb
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\OtroServicioWCF\bin\Persistencia.pdb
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.dll
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\OtroServicioWCF\obj\Debug\OtroServicioWCF.pdb

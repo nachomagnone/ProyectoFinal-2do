@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Ciudades">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Codigo_Ciudad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombre_ciudad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombre_pais" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Ciudades" nillable="true" type="tns:Ciudades" />
+  <xs:complexType name="Empleado">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Usuario">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Horas_semanales" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Empleado" nillable="true" type="tns:Empleado" />
+  <xs:complexType name="Usuario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Contrasena" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombre_Completo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UsuLog" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Usuario" nillable="true" type="tns:Usuario" />
+  <xs:complexType name="Meteorologo">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Usuario">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Mail" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Telefono" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Meteorologo" nillable="true" type="tns:Meteorologo" />
+  <xs:complexType name="ArrayOfCiudades">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Ciudades" nillable="true" type="tns:Ciudades" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCiudades" nillable="true" type="tns:ArrayOfCiudades" />
+  <xs:complexType name="ArrayOfMeteorologo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Meteorologo" nillable="true" type="tns:Meteorologo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMeteorologo" nillable="true" type="tns:ArrayOfMeteorologo" />
+  <xs:complexType name="Pronosticos">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ciudad" nillable="true" type="tns:Ciudades" />
+      <xs:element minOccurs="0" name="Codigo_interno" type="xs:int" />
+      <xs:element minOccurs="0" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ProH" nillable="true" type="tns:ArrayOfPronostico_Hora" />
+      <xs:element minOccurs="0" name="Usu" nillable="true" type="tns:Meteorologo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Pronosticos" nillable="true" type="tns:Pronosticos" />
+  <xs:complexType name="ArrayOfPronostico_Hora">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Pronostico_Hora" nillable="true" type="tns:Pronostico_Hora" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPronostico_Hora" nillable="true" type="tns:ArrayOfPronostico_Hora" />
+  <xs:complexType name="Pronostico_Hora">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Hora_pronostico" type="xs:int" />
+      <xs:element minOccurs="0" name="Probabilidad_Lluvias" type="xs:int" />
+      <xs:element minOccurs="0" name="Probabilidad_Tormentas" type="xs:int" />
+      <xs:element minOccurs="0" name="Temp_Max" type="xs:int" />
+      <xs:element minOccurs="0" name="Temp_Min" type="xs:int" />
+      <xs:element minOccurs="0" name="Tipo_Cielo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Velocidad_Viento" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Pronostico_Hora" nillable="true" type="tns:Pronostico_Hora" />
+  <xs:complexType name="ArrayOfPronosticos">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Pronosticos" nillable="true" type="tns:Pronosticos" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPronosticos" nillable="true" type="tns:ArrayOfPronosticos" />
+</xs:schema>

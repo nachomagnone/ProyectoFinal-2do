@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://nacho/MiServicioWCF/Servicio.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" />
+  <xs:element name="AgregarCiudad">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="C" nillable="true" type="q1:Ciudades" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="emp" nillable="true" type="q2:Empleado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AgregarCiudadResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarCiudad">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="C" nillable="true" type="q3:Ciudades" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="emp" nillable="true" type="q4:Empleado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarCiudadResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarCiudad">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="C" nillable="true" type="q5:Ciudades" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="emp" nillable="true" type="q6:Empleado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarCiudadResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BuscarCiudad">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pCodigo" nillable="true" type="xs:string" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="usu" nillable="true" type="q7:Usuario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BuscarCiudadResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="BuscarCiudadResult" nillable="true" type="q8:Ciudades" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarCiudadSinPronxAno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="anio" type="xs:int" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="emp" nillable="true" type="q9:Empleado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarCiudadSinPronxAnoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="ListarCiudadSinPronxAnoResult" nillable="true" type="q10:ArrayOfCiudades" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarCiudades">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="met" nillable="true" type="q11:Meteorologo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarCiudadesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="ListarCiudadesResult" nillable="true" type="q12:ArrayOfCiudades" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarTodasLasCiudades">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="emp" nillable="true" type="q13:Empleado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarTodasLasCiudadesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="ListarTodasLasCiudadesResult" nillable="true" type="q14:ArrayOfCiudades" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Logueo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pUsu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pass" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LogueoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="LogueoResult" nillable="true" type="q15:Usuario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AgregarUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="u" nillable="true" type="q16:Usuario" />
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="emp" nillable="true" type="q17:Empleado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AgregarUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="u" nillable="true" type="q18:Usuario" />
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="emp" nillable="true" type="q19:Empleado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarPassMeteorologo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="M" nillable="true" type="q20:Meteorologo" />
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="met" nillable="true" type="q21:Meteorologo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarPassMeteorologoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="u" nillable="true" type="q22:Usuario" />
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="emp" nillable="true" type="q23:Empleado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BuscarUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pUsulog" nillable="true" type="xs:string" />
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="usu" nillable="true" type="q24:Usuario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BuscarUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="BuscarUsuarioResult" nillable="true" type="q25:Usuario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarMeteorologoSinPronxAno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pAnio" type="xs:int" />
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="emp" nillable="true" type="q26:Empleado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarMeteorologoSinPronxAnoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="ListarMeteorologoSinPronxAnoResult" nillable="true" type="q27:ArrayOfMeteorologo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AgregarPronostico">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="P" nillable="true" type="q28:Pronosticos" />
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="met" nillable="true" type="q29:Meteorologo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AgregarPronosticoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarPronosticoAnio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="emp" nillable="true" type="q30:Empleado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarPronosticoAnioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="ListarPronosticoAnioResult" nillable="true" type="q31:ArrayOfPronosticos" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarPronosticodeHoy">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarPronosticodeHoyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ListarPronosticodeHoyResult" nillable="true">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any minOccurs="0" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

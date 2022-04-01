@@ -1,0 +1,75 @@
+C:\Users\Nicolas\Downloads\Proyecto2022\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Downloads\Proyecto2022\Logica\obj\Debug\Logica.dll
+C:\Users\Nicolas\Downloads\Proyecto2022\Logica\obj\Debug\Logica.pdb
+C:\Users\Administrador\Desktop\Proyecto2022\Logica\bin\Debug\Logica.dll
+C:\Users\Administrador\Desktop\Proyecto2022\Logica\bin\Debug\Logica.pdb
+C:\Users\Administrador\Desktop\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\Proyecto2022\Logica\bin\Debug\Persistencia.dll
+C:\Users\Administrador\Desktop\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Administrador\Desktop\Proyecto2022\Logica\bin\Debug\Persistencia.pdb
+C:\Users\Administrador\Desktop\Proyecto2022\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Proyecto2022\Logica\obj\Debug\Logica.dll
+C:\Users\Administrador\Desktop\Proyecto2022\Logica\obj\Debug\Logica.pdb
+C:\Users\tickantel\Desktop\Proyecto2022\Logica\bin\Debug\Logica.dll
+C:\Users\tickantel\Desktop\Proyecto2022\Logica\bin\Debug\Logica.pdb
+C:\Users\tickantel\Desktop\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.dll
+C:\Users\tickantel\Desktop\Proyecto2022\Logica\bin\Debug\Persistencia.dll
+C:\Users\tickantel\Desktop\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\tickantel\Desktop\Proyecto2022\Logica\bin\Debug\Persistencia.pdb
+C:\Users\tickantel\Desktop\Proyecto2022\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\tickantel\Desktop\Proyecto2022\Logica\obj\Debug\Logica.dll
+C:\Users\tickantel\Desktop\Proyecto2022\Logica\obj\Debug\Logica.pdb
+C:\Users\Nicolas\Desktop\Proyecto2022\Logica\bin\Debug\Logica.dll
+C:\Users\Nicolas\Desktop\Proyecto2022\Logica\bin\Debug\Logica.pdb
+C:\Users\Nicolas\Desktop\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Nicolas\Desktop\Proyecto2022\Logica\bin\Debug\Persistencia.dll
+C:\Users\Nicolas\Desktop\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Nicolas\Desktop\Proyecto2022\Logica\bin\Debug\Persistencia.pdb
+C:\Users\Nicolas\Desktop\Proyecto2022\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Desktop\Proyecto2022\Logica\obj\Debug\Logica.dll
+C:\Users\Nicolas\Desktop\Proyecto2022\Logica\obj\Debug\Logica.pdb
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\Logica\bin\Debug\Logica.dll
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\Logica\bin\Debug\Logica.pdb
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\Logica\bin\Debug\Persistencia.dll
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\Logica\bin\Debug\Persistencia.pdb
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\Logica\obj\Debug\Logica.dll
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\Logica\obj\Debug\Logica.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\Logica\bin\Debug\Logica.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\Logica\bin\Debug\Logica.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\Logica\bin\Debug\Persistencia.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\Logica\bin\Debug\Persistencia.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\Logica\obj\Debug\Logica.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\Logica\obj\Debug\Logica.pdb
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\Logica\bin\Debug\Logica.dll
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\Logica\bin\Debug\Logica.pdb
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\Logica\bin\Debug\Persistencia.dll
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\Logica\bin\Debug\Persistencia.pdb
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\Logica\obj\Debug\Logica.dll
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\Logica\obj\Debug\Logica.pdb
+C:\Users\Administrador\Downloads\Proyecto2022\Logica\bin\Debug\Logica.dll
+C:\Users\Administrador\Downloads\Proyecto2022\Logica\bin\Debug\Logica.pdb
+C:\Users\Administrador\Downloads\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Downloads\Proyecto2022\Logica\bin\Debug\Persistencia.dll
+C:\Users\Administrador\Downloads\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Administrador\Downloads\Proyecto2022\Logica\bin\Debug\Persistencia.pdb
+C:\Users\Administrador\Downloads\Proyecto2022\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Downloads\Proyecto2022\Logica\obj\Debug\Logica.dll
+C:\Users\Administrador\Downloads\Proyecto2022\Logica\obj\Debug\Logica.pdb
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\Logica\bin\Debug\Logica.dll
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\Logica\bin\Debug\Logica.pdb
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\Logica\bin\Debug\Persistencia.dll
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\Logica\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\Logica\bin\Debug\Persistencia.pdb
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\Logica\obj\Debug\Logica.dll
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\Logica\obj\Debug\Logica.pdb

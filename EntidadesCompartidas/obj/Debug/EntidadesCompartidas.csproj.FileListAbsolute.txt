@@ -1,0 +1,40 @@
+C:\Users\Nicolas\Downloads\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Nicolas\Downloads\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Nicolas\Downloads\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Downloads\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\Nicolas\Downloads\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\Administrador\Desktop\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Administrador\Desktop\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\tickantel\Desktop\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\tickantel\Desktop\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\tickantel\Desktop\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\tickantel\Desktop\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\Nicolas\Desktop\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Nicolas\Desktop\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Nicolas\Desktop\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\Nicolas\Desktop\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\Nicolas\Desktop\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\Nicolas\Desktop\proyecto 2022 version 2 3\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\Nueva carpeta\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\Nicolas\Desktop\07-03.2022\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Downloads\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Downloads\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Administrador\Downloads\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Downloads\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\Proyecto Final 2do Año\Proyecto2022\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
